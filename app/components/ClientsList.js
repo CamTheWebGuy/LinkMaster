@@ -34,7 +34,7 @@ const ClientsList = () => {
             type='button'
             className='block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
           >
-            Add Client
+            <a href='/clients/add'>Add Client</a>
           </button>
         </div>
       </div>
@@ -91,7 +91,7 @@ const ClientsList = () => {
                     </td>
                     <td className='relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0'>
                       <a
-                        href='#'
+                        href='/clients/view'
                         className='text-indigo-600 hover:text-indigo-900'
                       >
                         View<span className='sr-only'>, {client.name}</span>

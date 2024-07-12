@@ -22,7 +22,7 @@ import {
 import logo from "../images/LinkMaster.png";
 
 const navigation = [
-  { name: "Dashboard", href: "#", icon: HomeIcon, current: true },
+  { name: "Dashboard", href: "/dashboard", icon: HomeIcon, current: true },
   { name: "Clients", href: "#", icon: UsersIcon, current: false },
   { name: "Projects", href: "#", icon: FolderIcon, current: false },
   { name: "Messages", href: "#", icon: CalendarIcon, current: false },
